@@ -1,8 +1,6 @@
 body{
 background: rgb(2,0,36);
-/*background-image: url(../examen2/12.jpg);*/
-/*background: linear-gradient(to right, #005C98, #505BDA);*/
-background-image: url(../examen/info.jpeg);
+background-image: url(../PrimerExamenParcialDS/info.jpeg);
 position: absolute;
 opacity: 0.9;
 background-size: cover;
@@ -18,11 +16,28 @@ table{
     font: 11px normal normal uppercase helvetica,arial,serif; 
     color: #012d4b;
     position: absolute;
-    left:330px;
-    top:495px;
+    left:450px;
+    top:50px;
     overflow: scroll;
 }
+.table-1{
+    overflow-y: scroll;
+}
+.label1{
+    font: 40px normal normal uppercase helvetica,arial,serif; 
+    color: #012d4b;
+    position: absolute;
+    left:450px;
+    top:10px;
 
+}
+.volver{
+    font: 25px normal normal uppercase helvetica,arial,serif; 
+    color: #012d4b;
+    position: absolute;
+    left:0px;
+    top:10px;
+}
 table td{
     font: 14px normal normal uppercase helvetica,arial,serif; 
     color: #ffffff;
@@ -110,6 +125,7 @@ html,body{
 	width: 100%;
 	cursor: pointer;
   	padding: 3px 6px;
+    padding-right: 22px;
   	height: 20px;
   	outline: 0; 
   	border: 0;
@@ -137,8 +153,8 @@ html,body{
 	width: 5px;
 	height: 5px;
 	display: block;
-	border-left:2px solid #2AC176;
-	border-bottom:2px solid #2AC176;
+	border-left:4px solid #c12a8f;
+	border-bottom:4px solid #c12a2a;
 	transform: rotate(-45deg); /* Giramos el cuadrado */
 	transition: all 0.25s ease;
 

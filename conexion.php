@@ -40,12 +40,14 @@ $obj= new Metodos();
     <body>
         <main id="contenedor">
             <div class="form">
+                <label class=label1>Descargado con exito...</label>
                 <?php
                 $opciones=$_POST['opciones']; // segun la opcion que tomemos en la interfaz
                 //Ingreso de archivo alumnos
                 $archivo_alumnos = $_FILES["archivo_alumnos"]["name"];
                 $archivo_copiado_alumnos = $_FILES["archivo_alumnos"]["tmp_name"]; // copiamos el archivo_alumnos en un temporal
                 //Ingreso de archivo docentes
+                
                 $archivo_docentes = $_FILES["archivo_docentes"]["name"];
                 $archivo_copiado_docentes = $_FILES["archivo_docentes"]["tmp_name"];// copiamos el archivo_docentes en un temporal
                 //Ingreso de archivo distribucion Docente x Alumno semestre anterior
@@ -67,6 +69,7 @@ $obj= new Metodos();
                     }
                 }
                 ?>
+                
             </div>
         </main> 
     </body>
